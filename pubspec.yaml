@@ -1,0 +1,24 @@
+name: courier_app
+description: Courier is a messaging app putting control back into your hands. Without chat history and top-notch privacy measures, this app is for messaging - and messaging only. Focus on the conversations again, say what you feel and don't worry that someone will show up with a chat message you wrote half asleep (or drunk, you decide) two years ago ever again.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
+  firebase_auth: ^3.1.1
+  cloud_firestore: ^2.5.2
+  cloud_functions: ^3.0.3
+  firebase_messaging: ^10.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
